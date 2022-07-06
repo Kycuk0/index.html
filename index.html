@@ -7,8 +7,6 @@
     <title>Hello World</title>
 </head>
 
-<main>
-
 <body>
 
   <h1>Homework</h1>
@@ -32,6 +30,7 @@
   <div>
 <ul>
     <li>Натяжні</li>
+    <li>Касетні</li>
 </ul>
   </div>
     <p>Чи подабаються вам натяжні стелі?</p>
@@ -45,19 +44,31 @@
 <p>А як щодо касетних стель?</p>
 
 <div>
-   <input id="no"></input>
+   <label for="no">
+    <input id="no" type="radio" name="yes-no">Не моє
+    </label>
+    <label for="yes">
+   <input id="yes" type="radio" name="yes-no">Чому б і ні
+   </label>
+</div>
+
+<p>Які стелі вам доводилося встановлювати?</p>
+
+<div>
+    <label>
+<input id="1" type="checkbox" name="personality" checked>Натяжні</label>
+<label>
+<input id="2" type="checkbox" name="personality">Касетні</label>
 </div>
 
 <p>Чому саме такій варіант відповіді?</p>
 
   <div>
-    <footer -id"footer"></footer>
+    <footer id="footer"></footer>
     <input type="text" placeholder="Текст..." required>
     <button type="submit">Підтвердити</button>
 </div>
 
 </body>
-
-</main>
 
 </html>
